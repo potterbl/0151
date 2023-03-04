@@ -1,24 +1,27 @@
-# comments
+# Мой проект
 
-## Project setup
-```
-npm install
-```
+TI - это веб-приложение, написанное на фреймворке Vue. 
+Он представляет собой одну страницу приложения, в котором реализован функционал комментирования профиля.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Функции
 
-### Compiles and minifies for production
-```
-npm run build
-```
+- Добавление коментариев
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Установка проекта
+Откройте терминал и выполните команды для клонирования репозитория и установки зависимостей:
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- git clone https://github.com/potterbl/0151.git
+
+## Запуск проекта через NPM
+
+- cd 0151
+- npm install
+- npm run serve
+- Откройте браузер и перейдите на http://localhost:8080/vue-ti/
+
+## Запуск проекта через Docker
+
+- cd 0151
+- docker build -t 0151 .
+- docker run -p 8080:8080 0151
+- Откройте браузер и перейдите на http://localhost:8080
