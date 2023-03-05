@@ -208,7 +208,8 @@ export default {
   margin: 0;
 }
 .services {
-  width: 65%;
+  margin-left: 134px;
+  width: 100%;
 }
 .services hr {
   margin: 0;
@@ -364,6 +365,11 @@ export default {
 @media (max-width: 380px) {
   .about {
     font-size: 12px;
+  }
+}
+@media (max-width: 400px) {
+  .about{
+    font-size: 11px;
   }
 }
 </style>
