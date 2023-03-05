@@ -16,7 +16,7 @@ export default createStore({
       const day = now.getDate();
       const month = now.getMonth() + 1;
       const year = now.getFullYear() + 2;
-      const fulldate = `${day}/${monthNames[month - 1]}/${year}`;
+      const fulldate = `${day} ${monthNames[month - 1]} ${year}`;
   
       const newComment = {
         id: state.commentsCounter,
