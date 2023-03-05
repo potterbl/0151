@@ -17,4 +17,4 @@
 - cd 0151
 - npm install
 - npm run serve
-- Откройте браузер и перейдите на http://localhost:8080/vue-ti/
+- Откройте браузер и перейдите на http://localhost:8080/0151/
