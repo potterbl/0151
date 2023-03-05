@@ -226,6 +226,7 @@ export default {
   padding: 0 22px;
   height: 25px;
   color: #808080;
+  font-size: 13px;
 }
 .services__list {
   height: 76px;
